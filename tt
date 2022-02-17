@@ -1,0 +1,79 @@
+.mic{
+    background-image: url(images.png) ;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 20px;
+    width: 30%;
+    background-size: 6%;
+}
+header{
+text-align: right;
+  
+}
+.centre img{
+    width: 10%;
+    height: 10%;
+}
+
+.centre{
+    text-align: center;
+    margin-top:250px ;
+
+}
+.ro{
+background-color: brown;
+}
+footer{
+    background-color:rgb(242, 253, 253);
+    margin-top: 40%;
+   
+   
+}
+.droite{
+    text-align: left;
+}
+
+.do{
+display: flex;
+justify-content: space-between;
+}
+
+@media screen and (max-width:) {
+
+    footer {
+        font-size: 40%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
+
+/* html */
+
+<header>
+    <a href="#"> Gmail</a>
+    <a href="#"> Images</a>
+    <img src="applications.jpeg" alt="">
+    <button>sign in</button>
+</header>
+<body>
+<div class="centre">
+    <img src="go.jpeg" alt="">
+    <form action="input"><input type="text" class="mic"></form>
+    <button>Google Search</button> 
+    <button>I'm Feeling Lucky</button>
+        <p> 
+            google offered in :
+            <a href="#"> Français</a>
+            <a href="#">Hausa</a>
+        </p>
+    </div>    
+</body>
+<footer>
+    
+       
+
+       
+  
+</footer>
